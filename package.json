@@ -1,0 +1,25 @@
+{
+    "name": "airbnb-toronto",
+    "version": "1.0.0",
+    "description": "Airbnb Toronto Web App",
+    "main": "index.js",
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint",
+        "import-data": "node scripts/import_data.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "csv-parser": "^3.0.0",
+        "dotenv": "^16.0.0",
+        "mysql2": "^3.0.0",
+        "next": "latest",
+        "react": "latest",
+        "react-dom": "latest",
+        "recharts": "^2.10.3"
+    }
+}
